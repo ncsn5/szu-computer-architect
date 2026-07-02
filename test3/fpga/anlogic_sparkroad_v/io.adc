@@ -1,0 +1,17 @@
+set_pin_assignment	{ clk }	{ LOCATION = K14; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ fpioa[0] }	{ LOCATION = E16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ sd_clk }	{ LOCATION = M9; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ sd_cmd }	{ LOCATION = P2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ sd_dat[0] }	{ LOCATION = P1; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ sd_dat[1] }	{ LOCATION = N1; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ sd_dat[2] }	{ LOCATION = R2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ sd_dat[3] }	{ LOCATION = R1; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ hard_rst_n }	{ LOCATION = J13; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ core_active }	{ LOCATION = M3; IOSTANDARD = LVCMOS33; }
+
+
+
+
+
+
+

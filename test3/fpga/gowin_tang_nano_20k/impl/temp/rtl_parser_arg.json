@@ -1,0 +1,129 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/config.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/core/csr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/core/div.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/core/idex.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/core/ifu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/core/regs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/core/sctr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/core/trap.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/jtag/full_handshake_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/jtag/full_handshake_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_dm.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_driver.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/icb_2m8s.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/plic.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/rstc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sdrd/sd_reader.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sdrd/sdcmd_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sdrd/sdrd.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/iram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/fpioa.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/spi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/sys_perip.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/timer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/uart.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "../../rtl"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/my_fpga_project/Lab/test3/fpga/gowin_tang_nano_20k/impl/temp/rtl_parser.result",
+ "Top" : "sparrow_soc",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

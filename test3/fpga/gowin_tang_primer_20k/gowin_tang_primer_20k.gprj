@@ -1,0 +1,40 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="../../rtl/config.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/defines.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/core/core.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/core/csr.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/core/div.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/core/idex.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/core/regs.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/core/sctr.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/core/trap.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/core/ifu.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/jtag/full_handshake_rx.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/jtag/full_handshake_tx.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/jtag/jtag_dm.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/jtag/jtag_driver.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/jtag/jtag_top.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/icb_2m8s.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sparrow_soc.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sram.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/plic.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/rstc.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/iram.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sys_perip/fpioa.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sys_perip/spi.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sys_perip/sys_perip.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sys_perip/uart.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sys_perip/timer.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sdrd/sdrd.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sdrd/sd_reader.v" type="file.verilog" enable="1"/>
+        <File path="../../rtl/soc/sdrd/sdcmd_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin.cst" type="file.cst" enable="1"/>
+        <File path="src/gowin.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

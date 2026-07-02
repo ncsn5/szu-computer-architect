@@ -1,0 +1,219 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":1)
+Undeclared symbol 'reg_we_idex', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":69)
+Undeclared symbol 'csr_we_idex', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":70)
+Undeclared symbol 'mem_we', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":73)
+Undeclared symbol 'mem_en', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":75)
+Undeclared symbol 'reg_we_sctr', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":77)
+Undeclared symbol 'csr_we_sctr', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":78)
+Undeclared symbol 'inst_nxt', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":79)
+Undeclared symbol 'div_start', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":80)
+Undeclared symbol 'div_ready', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":81)
+Undeclared symbol 'mult_inst', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":82)
+Undeclared symbol 'trap_in', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":84)
+Undeclared symbol 'trap_jump', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":85)
+Undeclared symbol 'icb_err', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":86)
+Undeclared symbol 'inst_valid', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":123)
+Undeclared symbol 'wfi_trap', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":159)
+Undeclared symbol 'inst_err_trap', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":160)
+Undeclared symbol 'idex_mret', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":161)
+Undeclared symbol 'trap_csr_we', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":187)
+Undeclared symbol 'ex_trap_valid', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":194)
+Undeclared symbol 'tcmp_trap_valid', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":195)
+Undeclared symbol 'soft_trap_valid', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":196)
+Undeclared symbol 'mstatus_MIE3', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":197)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\csr.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\csr.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\csr.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\csr.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\div.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\div.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\div.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\div.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\idex.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\idex.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\idex.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\idex.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\ifu.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\ifu.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\ifu.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\ifu.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\regs.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\regs.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\regs.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\regs.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\sctr.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\sctr.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\sctr.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\sctr.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\trap.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\trap.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\trap.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\trap.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\full_handshake_rx.v'
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\full_handshake_tx.v'
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_dm.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_dm.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_dm.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_dm.v":1)
+Undeclared symbol 'dmi_w_sbaddress0', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_dm.v":329)
+Undeclared symbol 'dmi_w_sbdata0', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_dm.v":330)
+Undeclared symbol 'dmi_r_sbdata0', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_dm.v":331)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_driver.v'
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_top.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_top.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_top.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_top.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\icb_2m8s.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\icb_2m8s.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\icb_2m8s.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\icb_2m8s.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\plic.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\plic.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\plic.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\plic.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\rstc.v'
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sd_reader.v'
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdcmd_ctrl.v'
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdrd.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdrd.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdrd.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdrd.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":1)
+Undeclared symbol 'rst_n', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":123)
+Undeclared symbol 'hx_valid', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":125)
+Undeclared symbol 'soft_rst_en', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":126)
+Undeclared symbol 'core_ex_trap_valid', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":129)
+Undeclared symbol 'core_ex_trap_ready', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":131)
+Undeclared symbol 'irq_spi0_end', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":253)
+Undeclared symbol 'irq_timer0_of', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":254)
+Undeclared symbol 'irq_uart0_tx', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":255)
+Undeclared symbol 'irq_uart0_rx', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":256)
+Undeclared symbol 'irq_uart1_tx', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":257)
+Undeclared symbol 'irq_uart1_rx', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":258)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\iram.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\iram.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\iram.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\iram.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\fpioa.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\fpioa.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\fpioa.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\fpioa.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\spi.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\spi.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\spi.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\spi.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":2)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":2)
+Undeclared symbol 'uart0_tx', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":120)
+Undeclared symbol 'uart0_rx', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":121)
+Undeclared symbol 'uart1_tx', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":140)
+Undeclared symbol 'uart1_rx', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":141)
+Undeclared symbol 'spi0_mosi', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":160)
+Undeclared symbol 'spi0_miso', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":161)
+Undeclared symbol 'spi0_cs', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":162)
+Undeclared symbol 'spi0_clk', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":163)
+Undeclared symbol 'timer0_cmpo_p', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":182)
+Undeclared symbol 'timer0_cmpo_n', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":183)
+Undeclared symbol 'timer0_capi', assumed default net type 'wire'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":184)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\timer.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\timer.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\timer.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\timer.v":1)
+Analyzing Verilog file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\uart.v'
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\uart.v":1)
+Analyzing included file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v":1)
+Back to file 'D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\uart.v'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\uart.v":1)
+Compiling module 'sparrow_soc'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":2)
+Compiling module 'core'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v":2)
+Compiling module 'sctr'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\sctr.v":3)
+Compiling module 'regs'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\regs.v":3)
+Compiling module 'ifu'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\ifu.v":4)
+Compiling module 'idex'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\idex.v":5)
+Compiling module 'div'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\div.v":7)
+Compiling module 'csr'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\csr.v":4)
+Compiling module 'trap'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\trap.v":2)
+Compiling module 'iram'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\iram.v":2)
+Extracting RAM for identifier 'RAM'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\iram.v":101)
+WARN  (EX3791) : Expression size 30 truncated to fit in target size 13("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\iram.v":39)
+Compiling module 'sram'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v":2)
+Extracting RAM for identifier 'BRAM0'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v":56)
+Extracting RAM for identifier 'BRAM1'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v":57)
+Extracting RAM for identifier 'BRAM2'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v":58)
+Extracting RAM for identifier 'BRAM3'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v":59)
+WARN  (EX3791) : Expression size 30 truncated to fit in target size 12("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v":47)
+Compiling module 'sys_perip'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v":3)
+Compiling module 'uart'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\uart.v":2)
+Compiling module 'spi'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\spi.v":2)
+Compiling module 'timer'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\timer.v":2)
+Compiling module 'fpioa'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\fpioa.v":3)
+Compiling module 'plic'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\plic.v":2)
+Compiling module 'sdrd'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdrd.v":2)
+Extracting RAM for identifier 'buffer'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdrd.v":40)
+Compiling module 'sd_reader(CLK_DIV=3'b001)'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sd_reader.v":1)
+Compiling module 'sdcmd_ctrl'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdcmd_ctrl.v":1)
+Compiling module 'icb_2m8s'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\icb_2m8s.v":2)
+Compiling module 'rstc'("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\rstc.v":1)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\rstc.v":24)
+NOTE  (EX0101) : Current top module is "sparrow_soc"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input JTAG_TMS is unused("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":9)
+WARN  (CV0016) : Input JTAG_TDI is unused("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":10)
+WARN  (CV0016) : Input JTAG_TCK is unused("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":12)
+WARN  (CV0020) : Input sd_dat[3:1] is unused("D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v":17)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\fpga\gowin_tang_nano_20k\impl\gwsynthesis\gowin_tang_nano_20k.vg" completed
+[100%] Generate report file "D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\fpga\gowin_tang_nano_20k\impl\gwsynthesis\gowin_tang_nano_20k_syn.rpt.html" completed
+GowinSynthesis finish

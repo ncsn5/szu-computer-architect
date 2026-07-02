@@ -1,0 +1,7 @@
+{signal: [
+  {name: 'clk', wave: 'P........'},
+  {name: 'if_req_o', wave:  '01.......'},
+  {name: 'if_addr_o', wave: 'x=345678x', data: ["PC0","PC1","PC2","PC3","PC4","PC5","PC6"]},
+  {name: 'if_ack_i', wave:  '0.1......'},
+  {name: 'if_data_i', wave: 'xx3456789', data: ["inst0","inst1","inst2","inst3","inst4","inst5","inst6"]},
+]}

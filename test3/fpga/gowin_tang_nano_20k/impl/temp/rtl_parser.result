@@ -1,0 +1,258 @@
+[
+ {
+  "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_top.v",
+  "InstLine" : 3,
+  "InstName" : "jtag_top",
+  "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_top.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "jtag_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_top.v",
+    "InstLine" : 72,
+    "InstName" : "u_jtag_driver",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_driver.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "jtag_driver",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_driver.v",
+      "InstLine" : 238,
+      "InstName" : "tx",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/full_handshake_tx.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "full_handshake_tx"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_driver.v",
+      "InstLine" : 251,
+      "InstName" : "rx",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/full_handshake_rx.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "full_handshake_rx"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_top.v",
+    "InstLine" : 92,
+    "InstName" : "u_jtag_dm",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_dm.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "jtag_dm",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_dm.v",
+      "InstLine" : 453,
+      "InstName" : "tx",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/full_handshake_tx.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "full_handshake_tx"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/jtag_dm.v",
+      "InstLine" : 466,
+      "InstName" : "rx",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/jtag/full_handshake_rx.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "full_handshake_rx"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+  "InstLine" : 2,
+  "InstName" : "sparrow_soc",
+  "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "sparrow_soc",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+    "InstLine" : 120,
+    "InstName" : "inst_core",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "core",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+      "InstLine" : 65,
+      "InstName" : "inst_sctr",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/core/sctr.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sctr"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+      "InstLine" : 100,
+      "InstName" : "inst_regs",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/core/regs.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "regs"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+      "InstLine" : 115,
+      "InstName" : "inst_ifu",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/core/ifu.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "ifu"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+      "InstLine" : 130,
+      "InstName" : "inst_idex",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/core/idex.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "idex"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+      "InstLine" : 166,
+      "InstName" : "inst_div",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/core/div.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "div"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+      "InstLine" : 179,
+      "InstName" : "inst_csr",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/core/csr.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "csr"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/core/core.v",
+      "InstLine" : 202,
+      "InstName" : "inst_trap",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/core/trap.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "trap"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+    "InstLine" : 206,
+    "InstName" : "inst_iram",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/iram.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "iram"
+   },
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+    "InstLine" : 227,
+    "InstName" : "inst_sram",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sram.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "sram"
+   },
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+    "InstLine" : 245,
+    "InstName" : "inst_sys_perip",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/sys_perip.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "sys_perip",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/sys_perip.v",
+      "InstLine" : 107,
+      "InstName" : "inst_uart0",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/uart.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "uart"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/sys_perip.v",
+      "InstLine" : 127,
+      "InstName" : "inst_uart1",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/uart.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "uart"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/sys_perip.v",
+      "InstLine" : 147,
+      "InstName" : "inst_spi0",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/spi.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "spi"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/sys_perip.v",
+      "InstLine" : 169,
+      "InstName" : "inst_timer0",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/timer.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "timer"
+     },
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/sys_perip.v",
+      "InstLine" : 216,
+      "InstName" : "inst_fpioa",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sys_perip/fpioa.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "fpioa"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+    "InstLine" : 289,
+    "InstName" : "inst_plic",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/plic.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "plic"
+   },
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+    "InstLine" : 313,
+    "InstName" : "inst_sdrd",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sdrd/sdrd.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "sdrd",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sdrd/sdrd.v",
+      "InstLine" : 134,
+      "InstName" : "inst_sd_reader",
+      "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sdrd/sd_reader.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "sd_reader",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sdrd/sd_reader.v",
+        "InstLine" : 87,
+        "InstName" : "sdcmd_ctrl_i",
+        "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sdrd/sdcmd_ctrl.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "sdcmd_ctrl"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+    "InstLine" : 336,
+    "InstName" : "inst_icb_2m8s",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/icb_2m8s.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "icb_2m8s"
+   },
+   {
+    "InstFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/sparrow_soc.v",
+    "InstLine" : 452,
+    "InstName" : "inst_rstc",
+    "ModuleFile" : "D:/my_fpga_project/Lab/test3/rtl/soc/rstc.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "rstc"
+   }
+  ]
+ }
+]

@@ -1,0 +1,77 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.09 Education
+//Part Number: GW2AR-LV18QN88PC8/I7
+//Device: GW2AR-18C
+//Created Time: Sun 04 30 19:06:44 2023
+
+
+IO_LOC "clk" 4;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "hard_rst_n" 16;
+IO_PORT "hard_rst_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "core_active" 15; // 活动指示，连接LED0
+IO_PORT "core_active" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+// fpioa[0] 被 BSP 默认用作 UART Tx 端口
+IO_LOC "fpioa[0]" 69; // 连接USB串口
+IO_PORT "fpioa[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+IO_LOC "JTAG_TDI" 27; // JTAG调试接口
+IO_PORT "JTAG_TDI" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "JTAG_TDO" 28; // JTAG调试接口
+IO_PORT "JTAG_TDO" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8;
+IO_LOC "JTAG_TCK" 29; // JTAG调试接口
+IO_PORT "JTAG_TCK" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+IO_LOC "JTAG_TMS" 30; // JTAG调试接口
+IO_PORT "JTAG_TMS" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+
+// SD卡接口
+IO_LOC "sd_clk" 83;
+IO_PORT "sd_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "sd_cmd" 82;
+IO_PORT "sd_cmd" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "sd_dat[0]" 84;
+IO_PORT "sd_dat[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "sd_dat[1]" 85;
+IO_PORT "sd_dat[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "sd_dat[2]" 80;
+IO_PORT "sd_dat[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "sd_dat[3]" 81;
+IO_PORT "sd_dat[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// ----------- 解决先前报错的 fpioa 引脚 BankVccio 冲突和位置冲突 -----------
+
+// fpioa[3] 和 fpioa[4] 的 BankVccio 1.8V 冲突，它们实际在 BANK0 (+3V3) 
+IO_LOC "fpioa[3]" 74; // PIN74 (HSPI_D3) 位于 BANK0 
+IO_PORT "fpioa[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+IO_LOC "fpioa[4]" 73; // PIN73 (HSPI_D2) 位于 BANK0 
+IO_PORT "fpioa[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+// fpioa[9] 避免映射到 PIN9 (SYS_RECFG / RECONFIGN) ，这是一个专用配置引脚，避免直接作为通用I/O
+// 将 fpioa[9] 映射到 PIN20 (SYS_LED5) ，位于 BANK5  (+3V3) 
+IO_LOC "fpioa[9]" 20; // 映射到未使用的 LED 引脚 (SYS_LED5)
+IO_PORT "fpioa[9]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "fpioa[10]" 10; // SYS_GCLKP 在 BANK3 ，由 +3V3 供电 
+IO_PORT "fpioa[10]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "fpioa[11]" 11; // SYS_GCLKN 在 BANK3 ，由 +3V3 供电 
+IO_PORT "fpioa[11]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// fpioa[12] 和 fpioa[14] 在原理图中对应的物理引脚 12 和 14 是电源引脚，不能用作I/O.
+// 如果您的设计确实使用了 fpioa[12] 或 fpioa[14] 作为 I/O，您需要查找其他未使用的通用 I/O 引脚进行映射。
+// 例如 (请根据实际情况查找合适的空闲引脚替换):
+// IO_LOC "fpioa[12]" <another_unused_pin_number>;
+// IO_PORT "fpioa[12]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+// IO_LOC "fpioa[14]" <another_unused_pin_number>;
+// IO_PORT "fpioa[14]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "fpioa[13]" 13; // SPI_SCLK 在 BANK3 ，由 +3V3 供电 
+IO_PORT "fpioa[13]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// fpioa[15] 与 core_active (PIN15) 冲突，将其映射到 PIN18 (SYS_LED3) 
+// PIN18 位于 BANK6  (+3V3) 
+IO_LOC "fpioa[15]" 18; // 映射到未使用的 LED 引脚 (SYS_LED3)
+IO_PORT "fpioa[15]" IO_TYPE=LVCMOS33 PULL_MODE=UP;

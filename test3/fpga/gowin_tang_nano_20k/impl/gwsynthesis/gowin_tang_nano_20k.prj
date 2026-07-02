@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="8" partNumber="GW2AR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\config.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\core.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\csr.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\div.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\idex.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\ifu.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\regs.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\sctr.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\core\trap.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\defines.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\full_handshake_rx.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\full_handshake_tx.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_dm.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_driver.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\jtag\jtag_top.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\icb_2m8s.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\plic.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\rstc.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sd_reader.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdcmd_ctrl.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sdrd\sdrd.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sparrow_soc.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sram.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\iram.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\fpioa.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\spi.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\sys_perip.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\timer.v" type="verilog"/>
+        <File path="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\rtl\soc\sys_perip\uart.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="include_path" value="D:/my_fpga_project/SZU-A-major-project-on-computer-architecture-main/lab3/rtl"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\my_fpga_project\SZU-A-major-project-on-computer-architecture-main\lab3\fpga\gowin_tang_nano_20k\impl\gwsynthesis\gowin_tang_nano_20k.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="sparrow_soc"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
