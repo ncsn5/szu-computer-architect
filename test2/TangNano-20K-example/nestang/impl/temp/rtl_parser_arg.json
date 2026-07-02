@@ -1,0 +1,149 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/MicroCode.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/apu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/autofire.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/compat.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/config.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/cpu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/dualshock_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/game_loader.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/gowin_rpll_hdmi/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/gowin_rpll_nes/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/audio_clock_regeneration_packet.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/audio_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/audio_sample_packet.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/auxiliary_video_information_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/hdmi.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/packet_assembler.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/packet_picker.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/serializer.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/source_product_description_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hdmi2/tmds_channel.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hw_sound.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/hw_uart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/memory_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/mmu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/nes.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/nes2hdmi.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/nes_tang20k.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/ppu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/sd_loader.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/sd_reader.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/sdcmd_ctrl.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/sdram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/src/uart_tx_V2.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/my_fpga_project/test2/TangNano-20K-example/nestang/impl/temp/rtl_parser.result",
+ "Top" : "NES_Tang20k",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

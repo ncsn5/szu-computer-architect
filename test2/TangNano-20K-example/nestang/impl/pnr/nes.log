@@ -1,0 +1,47 @@
+Reading netlist file: "D:\my_fpga_project\test2\TangNano-20K-example\nestang\impl\gwsynthesis\nes.vg"
+Parsing netlist file "D:\my_fpga_project\test2\TangNano-20K-example\nestang\impl\gwsynthesis\nes.vg" completed
+WARN  (PA1003) : Invalid parameterized value 'GW2AR-18'(DEVICE) specified for instance 'pll_hdmi/rpll_inst'
+Processing netlist completed
+Reading constraint file: "D:\my_fpga_project\test2\TangNano-20K-example\nestang\src\nestang.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'u_hdmi/clk_audio' was determined to be a clock but was not created.
+WARN  (TA1132) :  'controller/W_scan_seq_pls' was determined to be a clock but was not created.
+WARN  (TA1132) :  'controller/n50_15' was determined to be a clock but was not created.
+WARN  (TA1132) :  'sclk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'controller/W_TXSET' was determined to be a clock but was not created.
+WARN  (TA1132) :  'n4_6' was determined to be a clock but was not created.
+WARN  (TA1132) :  'joystick_clk_d' was determined to be a clock but was not created.
+WARN  (TA1132) :  'controller2/W_scan_seq_pls' was determined to be a clock but was not created.
+WARN  (TA1132) :  'controller2/n50_15' was determined to be a clock but was not created.
+WARN  (TA1132) :  'controller2/W_TXSET' was determined to be a clock but was not created.
+WARN  (TA1132) :  'joystick_clk2_d' was determined to be a clock but was not created.
+WARN  (TA1132) :  'clk_div/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+WARN  (TA1117) : Can't calculate clocks' relationship between: "controller/n50_15" and "clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "controller2/n50_15" and "clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "n4_6" and "clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk" and "clk_p5"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk" and "clk_div/clkdiv_inst/CLKOUT.default_gen_clk"
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\my_fpga_project\test2\TangNano-20K-example\nestang\impl\pnr\nes.power.html" completed
+Generate file "D:\my_fpga_project\test2\TangNano-20K-example\nestang\impl\pnr\nes.pin.html" completed
+Generate file "D:\my_fpga_project\test2\TangNano-20K-example\nestang\impl\pnr\nes.rpt.html" completed
+Generate file "D:\my_fpga_project\test2\TangNano-20K-example\nestang\impl\pnr\nes.rpt.txt" completed
+Generate file "D:\my_fpga_project\test2\TangNano-20K-example\nestang\impl\pnr\nes.tr.html" completed
+Sun Jun 21 18:57:02 2026
+
